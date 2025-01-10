@@ -11,7 +11,6 @@ showcasing the potential of AI in healthcare diagnostics.
 	•	High Accuracy: Achieved a 97% accuracy rate in identifying cancerous cells during testing.
 	•	Convolutional Neural Networks: Utilizes CNN architecture for image processing and classification.
 	•	Scalable and Modular Design: Easily adaptable for different datasets or medical image classification tasks.
-	•	Open Source: Fully available for collaboration and further enhancement.
 
 
 
