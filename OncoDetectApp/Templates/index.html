@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OncoDetect</title>
+</head>
+<body>
+    <div class="container">
+        <h1>OncoDetect</h1>
+        <h2>Upload your image below for classification</h2>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <button type="submit">Upload and Classify</button>
+        </form>
+    </div>
+</body>
+</html>
